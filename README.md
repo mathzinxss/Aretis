@@ -23,10 +23,10 @@
 2. Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?
 
     **Pontos Fortes: Duas pessoas gerenciando, uma equipe compromissada e cristã;**
-    ---
+   
     **Pontos Fracos: Processo de aprendizagem e equipamentos limitados.**
 
-3. Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
+4. Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
 
     **Tecnologia**  
  
