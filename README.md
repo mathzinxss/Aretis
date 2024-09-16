@@ -4,52 +4,67 @@
 
 ### Quais são os principais objetivos do site/aplicativo? Informar? Vender? Dar suporte?
 
-    **Dar suporte**
+    Dar suporte
 
 ### Que tipo de site ele é? Puramente promocional? Institucional? Uma publicação? Uma loja? Um hotsite?
 
- **Uma loja ou instituição**
+    Uma loja ou instituição
 
 ### Quais são as mensagens mais importantes que o site deve passar aos visitantes? 
 
- **Virtude e habilidade**
+    Virtude e habilidade
  
 ## INFORMAÇÕES GERAIS SOBRE O WEB SITE/Aplicativo 
 
 ### Descreva o negócio/produto/empresa como se fosse uma pessoa. É sério? Jovem? Confiável? ...?
 
- **Uma empresa compromissada, seria e atual. Uma empresa inteligente e funcional.**
+    Uma empresa compromissada, seria e atual. Uma empresa inteligente e funcional.
 
 ### Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?
 
-    **Pontos Fortes: Duas pessoas gerenciando, uma equipe compromissada e cristã;**
+    Pontos Fortes: Duas pessoas gerenciando, uma equipe compromissada e cristã;
    
-    **Pontos Fracos: Processo de aprendizagem e equipamentos limitados.**
+    Pontos Fracos: Processo de aprendizagem e equipamentos limitados.
 
 ### Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
 
-    **Tecnologia**  
+    Tecnologia 
  
 ## PÚBLICO-ALVO
 
-    1. Qual é o público-alvo? O que você pode nos contar sobre ele? Descreva interesses, necessidades e o que mais souber a respeito.
-    2. O que o site irá oferecer ao seu público-alvo?
-    3. O que os visitantes devem fazer no site/aplicativo?
+### Qual é o público-alvo? O que você pode nos contar sobre ele? Descreva interesses, necessidades e o que mais souber a respeito.
+
+    Outras empresas
+ 
+### O que o site irá oferecer ao seu público-alvo?
+
+    Uma comunicação com as pessoas e um catalogo de "produtos".
+
+### O que os visitantes devem fazer no site/aplicativo?
+
+    Analisar os "produtos" e os meios de contato
 
 ## CONTEÚDO 
-    1. Qual são as seções e funcionalidades que precisam existir? 
-    
-    2. Você já tem os textos, fotos, vídeos ou outros materiais para o conteúdo do site/Aplicativo? 
+
+ ### Qual são as seções e funcionalidades que precisam existir?
+
+     HTML, CSS, Design, Afins
+ 
+### Você já tem os textos, fotos, vídeos ou outros materiais para o conteúdo do site/Aplicativo?
+
+    Não
  
 ## APARÊNCIA (DESIGN)
 
-    1. Você já tem alguma ideia para a aparência do site? Anote suas ideias para aproveitar depois. 
-    2. O domínio está disponível ou já foi registrado? 
-    3. Existem padrões existentes, como logotipos e cores, que devem estar presentes? 
-    4. Quais são alguns sites da web que você gosta? O que você gosta a respeito deles? Se possível, envie links de referência. 
-    5. Dê alguns exemplos de sites que não gosta e por que não gosta. 
- 
-## OUTROS
+### Você já tem alguma ideia para a aparência do site? Anote suas ideias para aproveitar depois.
 
-    1. Quem são seus concorrentes? O que é mais preocupante em relação a eles? Teria alguma informação mais detalhadas a respeito?
-    2. O que não pode haver no website, em função dos concorrentes?
+    Sim
+
+### O domínio está disponível ou já foi registrado? 
+
+    Não
+
+### Existem padrões existentes, como logotipos e cores, que devem estar presentes?
+
+    Sim
+ 
