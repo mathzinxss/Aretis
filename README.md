@@ -2,31 +2,31 @@
 
 ## Estratégia
 
-#### 1. Quais são os principais objetivos do site/aplicativo? Informar? Vender? Dar suporte?
+### Quais são os principais objetivos do site/aplicativo? Informar? Vender? Dar suporte?
 
     **Dar suporte**
 
-#### 2. Que tipo de site ele é? Puramente promocional? Institucional? Uma publicação? Uma loja? Um hotsite?
+### Que tipo de site ele é? Puramente promocional? Institucional? Uma publicação? Uma loja? Um hotsite?
 
  **Uma loja ou instituição**
 
-#### 3. Quais são as mensagens mais importantes que o site deve passar aos visitantes? 
+### Quais são as mensagens mais importantes que o site deve passar aos visitantes? 
 
  **Virtude e habilidade**
  
 ## INFORMAÇÕES GERAIS SOBRE O WEB SITE/Aplicativo 
 
-#### 1. Descreva o negócio/produto/empresa como se fosse uma pessoa. É sério? Jovem? Confiável? ...?
+### Descreva o negócio/produto/empresa como se fosse uma pessoa. É sério? Jovem? Confiável? ...?
 
  **Uma empresa compromissada, seria e atual. Uma empresa inteligente e funcional.**
 
-#### 2. Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?
+### Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?
 
     **Pontos Fortes: Duas pessoas gerenciando, uma equipe compromissada e cristã;**
    
     **Pontos Fracos: Processo de aprendizagem e equipamentos limitados.**
 
-#### 4. Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
+### Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
 
     **Tecnologia**  
  
