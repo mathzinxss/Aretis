@@ -1,0 +1,85 @@
+/* Barra de navegação */
+.navbar {
+    background-color: #f0f0f0; /* Cor de fundo da barra */
+    padding: 10px 0; /* Espaçamento interno */
+    display: flex; /* Exibe os itens da barra em linha */
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+
+/* Logo */
+#logo{
+    max-width: 245px;
+  }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center
+}
+
+nav ul li {
+    margin: 32px px 15px 0
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none
+}
+
+.nav-links a {
+    color: #333; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.5s ease; /* Transição suave para a cor */
+  }
+  .nav-links a:hover{
+    color: #007bff;
+  }
+
+li#icon {
+    display: inline-block;
+    padding: 0 5%;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+/* Ícones de mídia social */
+.social-icons {
+    display: flex; /* Exibe os ícones em linha */
+    align-items: center; /* Centraliza os ícones verticalmente */
+  }
+
+nav ul.esconde li:not(:first-child) {
+    display: none
+}
+
+nav ul.mostra li:not(:first-child) {
+    display: block
+}
+
+#produtos {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block
+}

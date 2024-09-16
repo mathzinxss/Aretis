@@ -1,0 +1,60 @@
+/* Barra de navegação */
+.navbar {
+  background-color: #f0f0f0; /* Cor de fundo da barra */
+  padding: 10px 0; /* Espaçamento interno */
+  display: flex; /* Exibe os itens da barra em linha */
+  justify-content: space-between; /* Distribui os itens uniformemente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+/* Logo */
+#logo{
+  max-width: 245px;
+}
+
+/* Links do menu */
+.nav-links {
+  list-style: none; /* Remove marcadores */
+  margin: 0; /* Remove margem padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  display: flex; /* Exibe os links em linha */
+  justify-content: space-between; /* Distribui os links uniformemente */
+  font-size: 2rem;
+}
+
+/* Itens do menu */
+.nav-links li {
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Links do menu */
+.nav-links a {
+  color: #333; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado */
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Links do menu quando passados o mouse */
+.nav-links a:hover {
+  color: #007bff; /* Cor do texto ao passar o mouse */
+}
+
+
+
+/* Ícones de mídia social */
+.social-icons {
+  display: flex; /* Exibe os ícones em linha */
+  align-items: center; /* Centraliza os ícones verticalmente */
+}
+
+/* Ícones de mídia social */
+.social-icons a {
+  margin-left: 10px; /* Espaçamento entre os ícones */
+  color: #333; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado */
+}
+
+/* Ícones de mídia social quando passados o mouse */
+.social-icons a:hover {
+  color: #007bff; /* Cor do texto ao passar o mouse */
+}
