@@ -1,0 +1,118 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o logo */
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #1ccabc;
+}
+
+/* Centralizando e espaçando o menu */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu_link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+ 
+/* Efeito de hover com cor */
+.menu_link:hover {
+    color: #59fcd3;
+}
+
+/* Efeito de hover com linha animada */
+.menu_link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #5eebe4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.menu_link:hover::after {
+    width: 100%;
+}
+
+/* Estilos para o artigo */
+article {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container p {
+    margin: 0;
+}
+
+/* Efeito interativo: smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
