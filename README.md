@@ -106,3 +106,4 @@ Isso vai ser um projeto muito interessante e completo! Integrar funcionalidades 
 Essa combinação de plataforma funcional e conteúdos educativos cria uma experiência completa e rica para os usuários, ajudando-os a não apenas controlar suas finanças, mas também a aprender e melhorar suas habilidades financeiras ao longo do tempo.
 
 Pronto para começar? Posso ajudar com os próximos passos técnicos!
+
