@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Finanças Pessoais</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Finanças Pessoais</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Relatórios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Metas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Configurações</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Formulário de Cadastro de Ganhos e Despesas -->
+  <div class="container">
+    <h3 class="section-title">Cadastro de Ganhos e Despesas</h3>
+    <div class="card">
+      <div class="card-header">
+        Adicionar Nova Transação
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <input type="text" class="form-control" id="descricao" placeholder="Ex: Salário, Aluguel">
+          </div>
+          <div class="form-group">
+            <label for="valor">Valor</label>
+            <input type="number" class="form-control" id="valor" placeholder="Ex: 2500.00">
+          </div>
+          <div class="form-group">
+            <label for="tipo">Tipo</label>
+            <select class="form-control" id="tipo">
+              <option>Ganho</option>
+              <option>Despesa</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="categoria">Categoria</label>
+            <select class="form-control" id="categoria">
+              <option>Selecione...</option>
+              <option>Salário</option>
+              <option>Alimentação</option>
+              <option>Transporte</option>
+              <option>Outros</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-custom">Adicionar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seção de Gráficos -->
+  <div class="container mt-5">
+    <h3 class="section-title">Análise Financeira</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Gráfico de Despesas
+          </div>
+          <div class="card-body">
+            <canvas id="graficoDespesas"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Gráfico de Ganhos
+          </div>
+          <div class="card-body">
+            <canvas id="graficoGanhos"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <h3 class="section-title">Transações Recentes</h3>
+    <table class="table table-bordered table-hover" id="tabelaTransacoes">
+      <thead class="thead-light">
+        <tr>
+          <th>Descrição</th>
+          <th>Categoria</th>
+          <th>Tipo</th>
+          <th>Valor</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Linhas de transações vão aparecer aqui -->
+      </tbody>
+    </table>
+  </div>
+  
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
