@@ -1,1 +1,1 @@
-cd %USERPROFILE%
+print("Teste de depuração no terminal")

@@ -19,6 +19,24 @@ var chartDespesas = new Chart(ctxDespesas, {
   }
 });
 
+var chartDespesas = new Chart(ctxDespesas, {
+  type: 'pie',
+  data: {
+    labels: categoriasDespesas,
+    datasets: [{
+      label: 'Despesas',
+      data: dadosDespesas,
+      backgroundColor: ['#ff6384', '#36a2eb', '#cc65fe', '#ffcd56', '#ff9f40']
+    }]
+  },
+  options: {
+    animation: {
+      duration: 0 // Desativa a animação
+    }
+  }
+});
+
+
 // Inicialização do gráfico de Ganhos
 var ctxGanhos = document.getElementById('graficoGanhos').getContext('2d');
 var chartGanhos = new Chart(ctxGanhos, {
