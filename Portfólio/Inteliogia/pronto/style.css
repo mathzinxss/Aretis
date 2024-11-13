@@ -1,0 +1,1264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO HEADER*/
+header {
+    padding: 20px 4%;
+    background-color: #000000db;
+    backdrop-filter: blur(20px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 999999;
+}
+
+header.rolagem {
+    padding: 10px 4%;
+}
+
+header.rolagem .logo img {
+    width: 80%;
+    transition: .5s;
+}
+
+header.rolagem .btn-comprar button {
+    padding: 15px;
+    font-size: 16px;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 20%;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    color: #858585;
+    padding: 0 15px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.btn-comprar button {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00FF60;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-comprar button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #00FF60;
+}
+
+/* Estilo da introduÃ§Ã£o do site */
+section.intro {
+    width: 100%;
+    padding: 80px 4%;
+    background-image: radial-gradient(#222222, #000000);
+}
+
+.intro>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.intro .intro-box:nth-of-type(2) {
+    text-align: right;
+}
+
+.intro .intro-box img {
+    width: 70%;
+    max-width: 720px;
+}
+
+.intro .titulo-intro {
+    color: #fff;
+}
+
+.intro .titulo-intro h1 {
+    font-size: 35px;
+}
+
+.intro .titulo-intro h1 span {
+    display: block;
+    color: #FD3C30;
+    text-decoration: underline;
+}
+
+.intro .titulo-intro p {
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.intro .titulo-intro p span {
+    display: block;
+}
+
+.intro .titulo-intro mark {
+    background-color: #00FF60;
+    padding: 0 10px;
+}
+
+.intro .video {
+    border: 2px solid #ccc;
+    width: 50%;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.intro .btn-comprar {
+    width: 320px;
+}
+
+.intro .btn-comprar button {
+    font-size: 20px;
+    color: #282828;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 320px;
+}
+
+.intro .btn-comprar p {
+    color: #fff;
+    text-align: center;
+}
+
+.intro .btn-comprar img {
+    width: 100%;
+}
+
+/* ESTILO "OQ VC VAI APRENDER" */
+section.oq-vai-aprender {
+    padding: 80px 4% 40px 4%;
+    background-color: #fff;
+}
+
+.titulo-sessao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo-sessao .decoracao {
+    width: 12px;
+    height: 80px;
+    background-color: #FD3C30;
+    margin-right: 20px;
+}
+
+.titulo-sessao h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.titulo-sessao h2 span {
+    font-size: 3rem;
+    font-weight: 800;
+    display: block;
+}
+
+section.oq-vai-aprender p.desc-titulo {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+section.oq-vai-aprender p.desc-titulo span {
+    display: block;
+}
+
+section.oq-vai-aprender p.desc-titulo span mark {
+    background-color: #FD3C30;
+    padding: 0 10px;
+    text-decoration: line-through;
+}
+
+.line-aprender {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-aprender .aprender-box {
+    background-color: #FFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #00000057;
+    transform-style: preserve-3d;
+    margin-bottom: 20px;
+
+}
+
+.line-aprender .aprender-box img {
+    margin-bottom: 20px;
+    margin-top: -80px;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.aprender-box:hover img {
+    transform: translate3d(0, 0, 100px)
+}
+
+.line-aprender .aprender-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.line-aprender .aprender-box p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.line-aprender {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.line-aprender .aprender-box {
+    margin-top: 90px;
+    width: 540px;
+}
+
+section.oq-vai-aprender .btn-comprar {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.oq-vai-aprender .btn-comprar button {
+    font-size: 24px;
+}
+
+.line-aprender h4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-aprender h4 span {
+    font-size: 16px;
+    background-color: #ff4f4f;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: line-through;
+}
+
+.ver-mais-modulos{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ver-mais-modulos button{
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #FC3C2F;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.ver-mais-modulos button:hover{
+    background-color: #FC3C2F;
+    color: #fff;
+}
+
+/* ESTILO DOS DEPOIMENTOS */
+section.depoimentos {
+    padding: 40px 4%;
+}
+
+.depoimentos .cometarios {
+    text-align: center;
+    margin: 60px 0;
+}
+
+/* ESTILO DOS MÃ“DULOS */
+section.modulos {
+    padding: 40px 4%;
+}
+
+.modulos .modulos-container {
+    height: 530px;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 40px 0;
+    padding: 40px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.modulos-container .modulos-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 8px #00000021;
+}
+
+.modulos-container .mod-html {
+    border: 1px solid #FC3C2F;
+}
+
+.modulos-container .mod-css {
+    border: 1px solid #2196F3;
+}
+
+.modulos-container .mod-server {
+    border: 1px solid #5C605F;
+}
+
+.modulos-container .mod-js {
+    border: 1px solid #FFC107;
+}
+
+.modulos-container .mod-off {
+    border: 1px solid #ccc;
+}
+
+.modulos-container .mod-off img{
+    filter: grayscale(100%);
+}
+
+.modulos-box .img-modbox img {
+    max-width: 80px;
+}
+
+.modulos-box .txt-modbox h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.modulos-box .txt-modbox p {
+    font-size: 12px;
+}
+
+.modulos-container .live{
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: #00c703;
+    border-radius: 50px;
+    color: #000;
+    animation: live 2s linear infinite alternate;
+}
+
+@keyframes live {
+    0%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* ESTILO DO PREÃ‡O */
+section.preco {
+    padding: 40px 4% 80px 4%;
+    background-color: #fff;
+}
+
+.preco .desc-titulo {
+    font-size: 24px;
+    margin: 40px 0;
+}
+
+.preco .desc-titulo span {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #FD3C30;
+}
+
+.preco-curso {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.preco-curso p.preco-antigo {
+    font-size: 26px;
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+.preco-curso p:nth-of-type(2) {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.preco-curso p:nth-of-type(3) {
+    font-size: 24px;
+}
+
+.preco-curso p.preco-novo {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.preco-curso p.preco-novo span {
+    font-size: 80px;
+    font-weight: 800;
+    display: block;
+}
+
+.preco-curso p.primeiro-passo {
+    font-size: 30px;
+}
+
+.preco .btn-comprar {
+    text-align: center;
+    margin: 40px;
+}
+
+.preco .btn-comprar button {
+    font-size: 26px;
+}
+
+.preco .corra {
+    text-align: center;
+}
+
+.preco .corra>h4 {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.preco .corra>p {
+    font-size: 20px;
+}
+
+.por-menos-q {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    margin: 100px 0;
+}
+
+.por-menos-q .combo-mc-donald {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.por-menos-q .combo-mc-donald img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.por-menos-q .combo-mc-donald p {
+    font-size: 16px;
+}
+
+/* ESTILOS DOS PREÃ‡OS COM CTA */
+section.preco-cta {
+    padding: 40px 4%;
+}
+
+section.preco-cta>.interface {
+    max-width: 1200px;
+}
+
+.preco-cta h2 {
+    text-align: center;
+}
+
+.preco-cta h2 span {
+    display: block;
+}
+
+.preco-cta h2 mark {
+    background-color: #00FF60;
+}
+
+.preco-cta .preco-box-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.preco-box-cta .vants-preco-cta p {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.preco-box-cta .vants-preco-cta p:not(:last-child) {
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.preco-box-cta .vants-preco-cta p i {
+    color: #00c703;
+    font-size: 25px
+}
+
+.preco-box-cta .preco-container {
+    text-align: center;
+}
+
+.preco-box-cta .preco-container>p:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.preco-box-cta .preco-container>p:nth-of-type(2) {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.preco-box-cta .preco-container>p:nth-of-type(2) span {
+    font-size: 3em;
+    font-weight: 900;
+    display: block;
+}
+
+.preco-container .btn-comprar {
+    margin-top: 28px;
+}
+
+.preco-container .btn-comprar p {
+    margin-bottom: 10px;
+}
+
+.preco-container .btn-comprar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.preco-container .btn-comprar div img {
+    width: 80px;
+}
+
+.preco-container .btn-comprar div p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ESTILO DA GARANTIA */
+
+.garantia {
+    padding: 80px;
+    text-align: center;
+}
+
+.garantia img {
+    width: 320px;
+}
+
+.garantia h2 {
+    margin: 40px;
+    color: #00c703;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.garantia p {
+    font-size: 20px;
+}
+
+/* ESTILO SOBRE MIM */
+section.sobre-mim {
+    background-image: radial-gradient(#222222, #000000);
+    padding: 80px 0 0 0;
+    color: #fff;
+}
+
+section.sobre-mim .ajuste-sobre {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.sobre-mim .img-sobre {
+    text-align: center;
+}
+
+section.sobre-mim .img-sobre img {
+    width: 420px;
+    max-width: 420px;
+}
+
+section.sobre-mim .txt-sobre {
+    width: 50%;
+}
+
+section.sobre-mim .txt-sobre p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.didatica {
+    padding: 60px 0;
+    text-align: center;
+    margin-top: -2px;
+    background-color: #212121;
+}
+
+.didatica h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* ESTILO DO FAQ */
+section.faq {
+    padding: 80px;
+}
+
+.faq .titulo-sessao {
+    margin-bottom: 60px;
+}
+
+.faq #perguntas-faq {
+    padding: 2% 4%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#perguntas-faq.ver {
+    height: auto;
+}
+
+.faq-box6,
+.faq-box7,
+.faq-box8,
+.faq-box9,
+.faq-box10 {
+    display: none;
+}
+
+#perguntas-faq.ver .faq-box6,
+#perguntas-faq.ver .faq-box7,
+#perguntas-faq.ver .faq-box8,
+#perguntas-faq.ver .faq-box9,
+#perguntas-faq.ver .faq-box10 {
+    display: block;
+}
+
+
+.faq-box {
+    padding: 20px;
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.faq-box:hover {
+    background-color: #E6E6E6;
+    box-shadow: 0 0 8px #0000005a;
+    transform: scale(1.011);
+}
+
+.faq-box.abrir {
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 8px #0000005a;
+    transform: scale(1.011);
+}
+
+.faq-box2.abrir {
+    height: 150px;
+}
+
+.faq-box3.abrir {
+    height: 150px;
+}
+
+.faq-box4.abrir {
+    height: 150px;
+}
+
+.faq-box5.abrir {
+    height: 150px;
+}
+
+.faq-box6.abrir {
+    height: 150px;
+}
+
+.faq-box7.abrir {
+    height: 120px;
+}
+
+.faq-box8.abrir {
+    height: 120px;
+}
+
+.faq-box9.abrir {
+    height: 150px;
+}
+
+.faq-box10.abrir {
+    height: 150px;
+}
+
+.faq-box.abrir #seta,
+.faq-box2.abrir #seta {
+    transform: rotateZ(180deg);
+}
+
+.faq-box.abrir p {
+    margin-top: 20px;
+}
+
+.faq-box .perg-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-box .perg-box h4 {
+    font-size: 20px;
+    line-height: 0;
+    margin: 20px 0;
+}
+
+#seta {
+    transition: .2s;
+}
+
+.faq-box .perg-box i {
+    color: #FD3C30;
+}
+
+.faq-box p {
+    margin-top: 40px;
+    transition: .2s;
+}
+
+.btn-ver-mais {
+    text-align: center;
+}
+
+.btn-ver-mais button {
+    border: 1px solid #FD3C30;
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.asterisco {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ESTILO DO RODAPÃ‰ */
+footer {
+    background-image: radial-gradient(#222222, #000000);
+    padding: 40px 4%;
+}
+
+footer .line-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer .line-footer:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+footer .logo-footer img {
+    width: 220px;
+}
+
+footer .logo-inteliogia img {
+    width: 30px;
+}
+
+footer .line-footer:nth-of-type(2) p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+footer .line-footer:nth-of-type(2) p a {
+    display: block;
+    color: #fff;
+}
+
+@media screen and (max-width: 1120px) {
+
+    /* Menu */
+    nav ul {
+        display: none;
+    }
+
+    header .logo {
+        width: 40%;
+    }
+
+    header.rolagem .logo {
+        width: 40%;
+    }
+
+    header .btn-comprar button {
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    header.rolagem .logo img {
+        width: 100%;
+    }
+
+    header.rolagem .btn-comprar button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    /* Estilo da introduÃ§Ã£o do site */
+    section.intro {
+        width: 100%;
+        padding: 80px 4%;
+        background-image: radial-gradient(#222222, #000000);
+    }
+
+    .intro .titulo-intro h1 {
+        font-size: 22px;
+    }
+
+    .intro .titulo-intro p {
+        font-size: 16px;
+    }
+
+    .intro .video {
+        width: 100%;
+        height: 200px;
+    }
+
+    .intro .btn-comprar {
+        width: 100%;
+    }
+
+    .intro .btn-comprar button {
+        font-size: 20px;
+    }
+
+    .intro .btn-comprar img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .intro>.interface {
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .intro .intro-box {
+        text-align: center;
+    }
+
+    .intro .intro-box:nth-of-type(2) {
+        text-align: center;
+    }
+
+    .intro .intro-box img {
+        width: 80%;
+    }
+
+    /* ESTILO "OQ VC VAI APRENDER" */
+    section.oq-vai-aprender {
+        padding: 80px 4%;
+        background-color: #fff;
+    }
+
+    .line-aprender {
+        flex-direction: column;
+    }
+
+    .line-aprender .aprender-box {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    section.oq-vai-aprender p.desc-titulo {
+        margin-bottom: 40px;
+    }
+
+    .line-aprender .aprender-box img {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .line-aprender:nth-of-type(2) {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .line-aprender:nth-of-type(2) .aprender-box {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* ESTILO DOS DEPOIMENTOS */
+    section.depoimentos {
+        padding: 40px 4%;
+    }
+
+    .depoimentos .titulo-sessao h2 {
+        font-size: 18px;
+    }
+
+    .depoimentos .titulo-sessao h2 span {
+        font-size: 35px;
+    }
+
+    .depoimentos .cometarios img {
+        width: 100%;
+    }
+
+    /* ESTILO DO PREÃ‡O */
+    section.preco {
+        padding: 80px 4%;
+        background-color: #fff;
+    }
+
+    .preco .titulo-sessao .decoracao {
+        height: 120px;
+        width: 30px;
+    }
+
+    .preco .titulo-sessao h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .preco .titulo-sessao h2 span {
+        font-size: 35px;
+    }
+
+    .preco .desc-titulo {
+        font-size: 20px;
+        margin: 40px 0;
+    }
+
+    .preco-curso p.primeiro-passo {
+        font-size: 20px;
+    }
+
+    .preco .btn-comprar {
+        text-align: center;
+        margin: 40px;
+    }
+
+    .preco .btn-comprar button {
+        font-size: 26px;
+    }
+
+    .preco .corra {
+        text-align: center;
+    }
+
+    .preco .corra>h4 {
+        font-size: 30px;
+        color: #ff0000;
+    }
+
+    .preco .corra>p {
+        font-size: 20px;
+    }
+
+
+    .preco-curso p.preco-novo {
+        font-size: 25px;
+    }
+
+    .preco-curso p:nth-of-type(4) {
+        font-size: 18px;
+    }
+
+    .preco-curso p.preco-novo span {
+        font-size: 2.5em;
+    }
+
+    .preco .btn-comprar button {
+        font-size: 18px;
+    }
+
+    .por-menos-q {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        margin: 100px 0;
+    }
+
+    .por-menos-q .combo-mc-donald {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .por-menos-q .combo-mc-donald img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .por-menos-q .combo-mc-donald p {
+        font-size: 16px;
+    }
+
+    /* ESTILO DA GARANTIA */
+
+    .garantia {
+        padding: 80px 4%;
+        text-align: center;
+    }
+
+    .garantia img {
+        width: 60%;
+    }
+
+    .garantia h2 {
+        font-size: 25px;
+    }
+
+    .garantia p {
+        font-size: 16px;
+    }
+
+    /* ESTILO DOS MÃ“DULOS */
+    section.modulos {
+        padding: 20px 4%;
+    }
+
+    .modulos .modulos-container {
+        height: 730px;
+        grid-template: 1fr 1fr 1fr / 1fr;
+    }
+
+    .modulos .titulo-sessao h2 {
+        font-size: 16px;
+    }
+
+    .modulos .titulo-sessao h2 span {
+        font-size: 30px;
+    }
+    .live{
+        display: block;
+        text-align: center;
+    }
+
+    /* ESTILOS DOS PREÃ‡OS COM CTA */
+    .preco-cta h2 {
+        font-size: 20px;
+    }
+
+    .preco-cta h2 span {
+        display: inline;
+    }
+
+    .preco-cta .preco-box-cta {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .preco-container .btn-comprar div {
+        text-align: left;
+        gap: 20px;
+    }
+
+    /* ESTILO SOBRE MIM */
+    section.sobre-mim {
+        padding: 80px 4%;
+    }
+
+    .sobre-mim .titulo-sessao h2 {
+        font-size: 20px;
+    }
+
+    .sobre-mim .titulo-sessao h2 span {
+        font-size: 30px;
+    }
+
+    section.sobre-mim .ajuste-sobre {
+        margin-top: 70px;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    section.sobre-mim .img-sobre img{
+        width: 100%;
+    }
+
+    section.sobre-mim .txt-sobre {
+        width: 100%;
+    }
+
+    /* ESTILO DO FAQ */
+    section.faq {
+        padding: 80px 4%;
+    }
+
+    #perguntas-faq.ver {
+        height: auto;
+    }
+
+    .faq-box .perg-box {
+        gap: 20px;
+
+    }
+
+    .faq-box.abrir {
+        height: 180px;
+    }
+
+    .faq-box2.abrir {
+        height: 180px;
+    }
+
+    .faq-box3.abrir {
+        height: 200px;
+    }
+
+    .faq-box4.abrir {
+        height: 210px;
+    }
+
+    .faq-box5.abrir {
+        height: 200px;
+    }
+
+    .faq-box6.abrir {
+        height: 200px;
+    }
+
+    .faq-box7.abrir {
+        height: 120px;
+    }
+
+    .faq-box7 {
+        height: 60px;
+    }
+
+    .faq-box8.abrir {
+        height: 160px;
+    }
+
+    .faq-box9.abrir {
+        height: 230px;
+    }
+
+    .faq-box9 {
+        height: 100px;
+    }
+
+    .faq-box10.abrir {
+        height: 230px;
+    }
+
+    .faq-box .perg-box h4 {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+
+    .faq-box p {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .asterisco {
+        font-size: 12px;
+    }
+
+    /* ESTILO DO RODAPÃ‰ */
+    footer {
+        padding: 40px 4%;
+    }
+
+    footer .line-footer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer .line-footer:nth-of-type(2) p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    footer .line-footer:nth-of-type(2) p a {
+        display: inline;
+        color: #fff;
+    }
+
+    footer .line-footer:nth-of-type(3) p {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    footer .line-footer:nth-of-type(3) img {
+        width: 60px;
+    }
+
+}
