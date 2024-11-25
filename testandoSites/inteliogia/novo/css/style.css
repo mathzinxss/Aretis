@@ -1,0 +1,822 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #151515;
+}
+
+.interface {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+mark {
+    background-color: #FD3C30;
+    color: #fff;
+}
+/* OFERTA */
+section.oferta{
+    background-color: #ffff00;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+
+}
+
+section.oferta > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oferta .btn-comprar {
+    margin: 0px;
+}
+
+.oferta .btn-comprar button {
+    margin-bottom: 0;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    animation: animaButton 2s ease-in-out infinite alternate;
+
+}
+
+.oferta p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@keyframes animaButton {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.06);
+    }
+}
+
+/* ESTILO DA HERO */
+section.hero {
+    text-align: center;
+    height: 80vh;
+
+    background-image: linear-gradient(180deg, #FD3C30, #151515 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .logo img {
+    max-width: 360px;
+}
+
+.hero .txt-hero h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.hero .txt-hero p {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.hero .txt-hero h1 span,
+.hero .txt-hero p span {
+    display: block;
+}
+
+.hero .txt-hero p span {
+    color: #151515;
+    font-weight: 700;
+}
+
+.btn-comprar {
+    margin-top: 40px;
+}
+
+.btn-comprar button {
+    width: 420px;
+    height: 60px;
+    background-color: #00FF60;
+    border: 0;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: box-shadow .5s, transform .5s;
+}
+
+.btn-comprar button:hover {
+    box-shadow: 0 0 14px #00FF60;
+    transform: scale(1.06);
+}
+
+.btn-comprar p {
+    font-size: .8rem;
+}
+
+.btn-comprar img {
+    max-width: 320px;
+}
+
+/* VANTAGENS DE APRENDER FRONT-END */
+section.lucrtivo {
+    padding: 80px 0;
+}
+
+.lucrtivo h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+}
+
+.lucrtivo h1 span {
+    display: block;
+}
+
+
+.lucrtivo .vantagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lucrtivo .vantagens .vants-box {
+    border: 2px solid #ccc;
+    background-color: #ffffff36;
+    width: 400px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.vantagens .vants-box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.vantagens .vants-box p {
+    color: #fff;
+    text-align: justify;
+    line-height: 28px;
+}
+
+/* SALÃRIOS */
+section.salarios {
+    background-color: #1E1E1E;
+    padding: 40px 0;
+}
+
+.titulo-secao {
+    text-align: center;
+    color: #fff;
+}
+
+.titulo-secao h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.titulo-secao h1 span {
+    display: block;
+}
+
+.titulo-secao p {
+    font-size: 1.1rem;
+}
+
+.salarios .graficos-salarios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graficos-salarios .grafico-container {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.grafico-container p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.grafico-container .grafico-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.grafico-box.junior {
+    height: 30%;
+    background-color: #00EFBF;
+}
+
+.grafico-box.pleno {
+    height: 60%;
+    background-color: #FFD500;
+}
+
+.grafico-box.senior {
+    height: 100%;
+    background-color: #00FF60;
+}
+
+.salarios .interface>p {
+    margin-top: 20px;
+    color: #A6A6A6;
+}
+
+.salarios .oportunidades {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    color: #FD3C30;
+    padding: 20px 0;
+}
+
+.oportunidades h1 span {
+    font-size: 1.2rem;
+    display: block;
+    color: #fff;
+}
+
+.liberdade {
+    height: 400px;
+    background-image: url(../images/viajando.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.liberdade div {
+    color: #fff;
+    position: relative;
+    width: 50%;
+    margin-left: 8%;
+}
+
+.liberdade div h1 {
+    font-size: 2rem;
+    color: #FD3C30;
+    margin-bottom: 20px;
+}
+
+.liberdade div p {
+    line-height: 32px;
+    font-size: 1.1rem;
+}
+
+.liberdade::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #1E1E1E 65%, transparent);
+}
+
+/* O QUE VOCÃŠ VAI APRENDER */
+section.linguagens {
+    padding: 40px 0;
+}
+
+.linguagens .interface>.titulo-secao h1 {
+    color: #FD3C30;
+}
+
+.linguagens .lang-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.linguagens .lang-container .lang-box {
+    width: 320px;
+    padding: 40px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    border-width: 8px 1px 1px 1px;
+    border-style: solid;
+}
+
+.lang-container .lang-box .nome-lang {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang-box .nome-lang img {
+    width: 70px;
+}
+
+.lang-container p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.lang-container .html {
+    border-color: #FF5722;
+    color: #FF5722;
+}
+
+.lang-container .css {
+    border-color: #2196F3;
+    color: #2196F3;
+}
+
+.lang-container .js {
+    border-color: #FFC107;
+    color: #FFC107;
+}
+
+/* SEÃ‡ÃƒO DE PREÃ‡O */
+section.preco{
+    padding: 40px 0;
+}
+
+.preco .preco-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.preco .box-preco, .preco .preco-vants{
+    width: 50%;
+}
+
+.preco .box-preco{
+    padding: 40px;
+    border: 2px solid #fff;
+    background-color: #414141;
+    border-radius: 20px;
+}
+
+.box-preco h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #00FF60;
+}
+
+.box-preco > p{
+    text-align: center;
+    color: #fff;
+}
+
+.box-preco .logo-preco{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.box-preco .logo-preco img{
+    max-width: 280px;
+}
+
+.box-preco .check-beneficios{
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.box-preco .check-beneficios p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    margin: 15px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.box-preco .check-beneficios p img{
+    max-width: 26px;
+    margin-right: 8px;
+}
+
+.box-preco .preco-info{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.box-preco .preco-info > p{
+    font-size: 20px;
+}
+
+.box-preco .preco-info > p del{
+    color: #ff0000;
+    font-size: 26px;
+}
+
+.box-preco .preco-info h2{
+    font-size: 3.8rem;
+    color: #00FF60;
+}
+
+.box-preco .preco-info h2 span{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.box-preco .preco-info .btn-comprar {
+    margin-top: 20px;
+}
+
+.garantia, .prova-social, .vitalicio{
+    width: 100%;
+    padding: 30px;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #414141;
+}
+
+.garantia, .vitalicio{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: justify;
+    color: #fff;
+    height: 220px;
+}
+
+.garantia img, .vitalicio img{
+    max-width: 140px;
+}
+
+.garantia h2, .vitalicio h2{
+    margin-bottom: 20px;
+}
+
+/* CARROSSEL DE TESTEMUNHO */
+.prova-social{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prova-social h2{
+    font-size: 1.8rem;
+    color: #FD3C30;
+    text-align: center;
+}
+
+.depoimentos {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.depoimentos .slide{
+    padding: 20px 60px;
+    cursor: grab;
+}
+
+.depoimentos .slide:active{
+    cursor: grabbing;
+}
+
+.depoimentos p.depoi-txt {
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.slide .person p.nome-person {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FD3C30;
+}
+
+.nav-btn {
+    color: #FD3C30;
+}
+
+/* SEÃ‡ÃƒO O QUE O CURSO PODE OFERECER */
+.curso-oferece{
+    padding: 40px 0;
+}
+
+.desktop{
+    display: block;
+}
+.mobile{
+    width: 100%;
+    display: none;
+    text-align: center;
+    
+}
+
+.curso-oferece h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.curso-oferece h1 span{
+    display: block;
+}
+
+.curso-oferece .curso-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.txt-curso-oferece, .icons-curso-oferece{
+    width: 50%;
+}
+
+.txt-curso-oferece{
+    position: sticky;
+    top: 100px;
+    left: 0;
+    padding-bottom: 70px;
+}
+
+.txt-curso-oferece h2{
+    color: #fff;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.txt-curso-oferece h2 span{
+    display: block;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.icons-curso-oferece .icons-box{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.icons-curso-oferece .icons-box:not(:last-of-type){
+    border-bottom: 1px solid #ccc;
+}
+
+.icons-curso-oferece .icons-box:first-of-type{
+    padding-bottom: 80px;
+}
+
+.icons-curso-oferece .icons-box:not(:first-of-type){
+    padding: 80px 0;
+}
+
+.icons-curso-oferece .icons-box img{
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+.icons-curso-oferece .icons-box h3{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.icons-curso-oferece .icons-box h3 span{
+    color: #FD3C30;
+}
+
+.icons-curso-oferece .icons-box p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* SOBRE MIM */
+.sobre-box {
+    height: 400px;
+    background-image: url(../images/bruno.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sobre-box div {
+    color: #fff;
+    position: relative;
+    width: 50%;
+    margin-left: 8%;
+}
+
+.sobre-box div h1 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.sobre-box div h1 span{
+    display: block;
+    color: #FD3C30;
+    font-size: 2.8rem;
+    font-weight: 800;
+
+}
+
+.sobre-box div p {
+    line-height: 32px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.sobre-box::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #151515 65%, transparent);
+}
+
+/* SESSÃƒO FAQ */
+.perguntas-frequentes{
+    padding: 60px 0;
+}
+
+.oculto{
+    display: none;
+}
+
+.perguntas-frequentes h1{
+    font-size: 3rem;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #FD3C30;
+}
+
+.faq{
+    width: 100%;
+    list-style: none;
+}
+
+.faq li{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.faq li label{
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.faq li label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.faq input[type=radio]{
+    display: none;
+}
+
+.faq .resposta{
+    color: #fff;
+    font-size: 18px;
+    padding: 0 14px;
+    line-height: 32px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s, padding .5s;
+}
+
+.faq input[type=radio]:checked + label + .resposta{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.faq input[type=radio]:checked + label::before{
+    content: '-';
+}
+
+.btn-ver-mais{
+    text-align: center;
+}
+
+.btn-ver-mais button{
+    padding: 10px 20px;
+    border: 1px solid #FD3C30;
+    background: transparent;
+    color: #FD3C30;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-ver-mais button:hover{
+    background-color: #fff;
+}
+
+/* ESTILO DO RODAPÃ‰ */
+footer{
+    background-color: #343434;
+    padding: 40px 0;
+}
+
+footer .linha1, footer .linha3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha1 .logo-footer img{
+    max-width: 260px;
+}
+
+.linha1 nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.linha1 nav ul li{
+    padding: 0 20px;
+}
+
+.linha1 nav ul li a{
+    color: #9A9A9A;
+    transition: .2s;
+}
+
+.linha1 nav ul li a.comecar{
+    color: #00FF60 !important;
+}
+
+.linha1 nav ul li a:hover, footer .linha2 a:hover{
+    color: #FD3C30;
+}
+
+footer .linha2{
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer .linha2 p{
+    color: #fff;
+}
+
+footer .linha2 a{
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .2s;
+}
+
+footer .linha3{
+    color: #fff;
+}
+
+footer .linha3 img{
+    max-width: 40px;
+}

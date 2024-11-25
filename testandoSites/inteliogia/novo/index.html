@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9N8DGCWVF9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9N8DGCWVF9');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Front-end - Inteliogia</title>
+
+    <!-- SEO E SMO -->
+    <meta name="keywords"
+        content="front-end, desenvolvimento web, html, css, javascritp, js, inteliogia, bruno rodrigues, criar sites, criação de sites, sites, websites, curso de front-end, curso de sites">
+    <meta name="description" content="Modo Front-End - Inteliogia">
+    <meta name="author" content="Bruno Rodrigues - Inteliogia">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- SMO -->
+    <meta property="og:title" content="Modo Front-End - Inteliogia">
+    <meta property="og:site_name" content="Inteliogia">
+    <meta property="og:description" content="Curso de desenvolvimento web front-end">
+    <meta property="og:url" content="https://inteliogia.com">
+    <meta property="og:image" content="images\banner-front-end.webp">
+    <meta property="og:image:type" content="image/webp">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- /GOOGLE FONTS -->
+
+    <!-- SCRIPTS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- /SCRIPTS -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <script id="hotmart_launcher_script">
+        (function (l, a, u, n, c, h, e, r) {
+            l['HotmartLauncherObject'] = c; l[c] = l[c] || function () {
+                (l[c].q = l[c].q || []).push(arguments)
+            }, l[c].l = 1 * new Date(); h = a.createElement(u),
+                e = a.getElementsByTagName(u)[0]; h.async = 1; h.src = n; e.parentNode.insertBefore(h, e)
+        })(window, document, 'script', '//launcher.hotmart.com/launcher.js', 'hot');
+
+        hot('account', '824ce359-e888-332d-bcfb-138dae7aaff0');
+    </script>
+</head>
+
+<body>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '259405367009440');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=259405367009440&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <section class="oferta">
+        <div class="interface">
+            <p>Atenção! Oferta por tempo limitado. Garanta a sua vaga!</p>
+            <div class="btn-comprar">
+                <a href="https://pay.hotmart.com/G85732341E?off=vyewftec&checkoutMode=10&_hi=eyJjaWQiOiIxNjk0MjI4NjE1ODM5MTYyMzk4MTkyNTYwNDI2OTgwIiwiYmlkIjoiMTY5NDIyODYxNTgzOTE2MjM5ODE5MjU2MDQyNjk4MCIsInNpZCI6IjRlZDdjNTQwZDliNTRmOTk4YjIxNDk5NmJkZTk0OGQyIn0=.1732150570675"
+                    target="_blank"><button>Inscreva-se</button></a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="hero">
+            <div class="interface">
+
+                <div class="logo">
+                    <img src="images/logotipo-modo-front-end.webp"
+                        alt="Logotipo do Treinamento Modo Front-end - Branca">
+                </div>
+
+                <article class="txt-hero">
+                    <h1>Seja um desenvolvedor web requisitado <span>e construa sua carreira com total liberdade</span>
+                    </h1>
+                    <p>Saia do zero e aprenda as tecnologias mais valorizadas para se destacar no mercado de trabalho
+                        <span><mark>e com a liberdade de escolher seu próprio caminho.</mark></span>
+                    </p>
+
+                    <div class="btn-comprar">
+                        <a href="#preco"><button>Quero ter liberdade</button></a>
+                        <p>Pagamento 100% seguro</p>
+                        <img src="images/bandeiras-pagamento.webp" alt="Bandeiras de pagamento">
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+        <section class="lucrtivo">
+            <div class="interface">
+                <h1>Aprender front-end é muito valioso para<span> quem <mark>busca uma carreira lucrativa,</mark> e eu
+                        posso provar isso</span></h1>
+
+                <article class="vantagens">
+                    <div class="vants-box">
+                        <h2>Poucos profissionais qualificados</h2>
+                        <p>Empresas de todos os tamanhos precisam de sites, aplicativos e soluções visuais. Ainda assim,
+                            há um déficit de profissionais qualificados, o que torna a área uma excelente oportunidade
+                            para iniciantes.</p>
+                    </div>
+                    <div class="vants-box">
+                        <h2>O mercado paga 3x mais</h2>
+                        <p>Dev's front-end estão entre os profissionais mais bem pagos, especialmente em comparação a
+                            áreas que exigem apenas cursos rápidos. Com habilidades de HTML, CSS e JavaScript, você pode
+                            iniciar uma carreira lucrativa, com salários que superam a média em muitas profissões.</p>
+                    </div>
+                    <div class="vants-box">
+                        <h2>Baixa curva de aprendizado</h2>
+                        <p>Front-end é uma das áreas mais acessíveis da programação, ideal para iniciantes. Com
+                            ferramentas visuais e resultados imediatos, é possível aprender o básico rapidamente e já
+                            começar a criar projetos práticos.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="salarios">
+            <div class="interface">
+
+                <div class="titulo-secao">
+                    <h1>
+                        Aprenda a ser um(a) desenvolvedor(a) acima da média
+                        <span>e veja quanto você pode receber por mês:</span>
+                    </h1>
+                    <p>Uma pesquisa feita no Glassdoor mostra a média salarial de um dev web junior, pleno e sênior.</p>
+                </div>
+
+                <article class="graficos-salarios">
+
+                    <div class="grafico-container">
+                        <p>R$ 3.821</p>
+                        <div class="grafico-box junior">
+                            Junior
+                        </div>
+                    </div>
+
+                    <div class="grafico-container">
+                        <p>R$ 6.725</p>
+                        <div class="grafico-box pleno">
+                            Pleno
+                        </div>
+                    </div>
+
+                    <div class="grafico-container">
+                        <p>R$ 11.139</p>
+                        <div class="grafico-box senior">
+                            Sênior
+                        </div>
+                    </div>
+
+                </article>
+                <p>Fonte: Glassdoor</p>
+
+            </div>
+
+            <article class="liberdade">
+                <div>
+                    <h1>Trabalhe onde e quando você quiser</h1>
+                    <p>O front-end é perfeito para freelancers, oferecendo liberdade para trabalhar quando e onde
+                        quiser. Atenda clientes do mundo todo, aproveite mais a vida viajando e, com experiência,
+                        alcance ganhos acima de R$10.000 por mês.</p>
+                </div>
+            </article>
+
+            <div class="interface">
+                <article class="oportunidades">
+                    <h1><span>As oportunidades surgirão, mas a pergunta é:</span>
+                        você estará preparado(a) quando essas oportunidades <br>
+                        altamente lucrativas surgirem?
+                    </h1>
+                    <div class="btn-comprar">
+                        <a href="#preco"><button>Quero ter liberdade</button></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="linguagens" id="linguagens">
+            <div class="interface">
+
+                <div class="titulo-secao">
+                    <h1>
+                        Domine o front-end
+                    </h1>
+                    <p>Aulas práticas e diretas com todos os detalhes que você
+                        precisa para dominar as principais tecnologias do front-end.
+                    </p>
+                </div>
+
+                <article class="lang-container">
+                    <div class="lang-box html">
+                        <div class="nome-lang">
+                            <img src="images/logo-html.webp" alt="Logotipo do HTML5">
+                            <h2>HTML5</h2>
+                        </div>
+                        <p>Aprenda a estruturar sites e
+                            organizar todo o conteúdo do seu
+                            projeto com o HTML.</p>
+                    </div>
+                    <div class="lang-box css">
+                        <div class="nome-lang">
+                            <img src="images/logo-css.webp" alt="Logotipo do CSS3">
+                            <h2>CSS3</h2>
+                        </div>
+                        <p>Aprenda a deixar seu site estiloso
+                            e moderno utilizando a
+                            linguagem CSS.</p>
+                    </div>
+                    <div class="lang-box js">
+                        <div class="nome-lang">
+                            <img src="images/logo-js.webp" alt="Logotipo do Javascript">
+                            <h2>Javascript</h2>
+                        </div>
+                        <p>Deixe seu projeto ainda mais
+                            profissional com mais interatividade
+                            usando Javascript.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="preco" id="preco">
+            <div class="interface">
+
+                <article class="preco-container">
+                    <div class="box-preco">
+                        <h1>Comece ainda hoje</h1>
+                        <p>Seu primeiro passo para a liberdade</p>
+                        <div class="logo-preco"><img src="images/logotipo-modo-front-end.webp"
+                                alt="Logotipo Treinamento Modo Front-end - Branca"></div>
+                        <div class="check-beneficios">
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> +200 aulas disponíveis</p>
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> Atualizações constantes</p>
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> Suporte individual e personalizado
+                            </p>
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> Acesso vitalício</p>
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> Download de materiais</p>
+                            <p><img src="images/aprovado.webp" alt="Ícone de check"> Comunidade exclusiva</p>
+                        </div>
+
+                        <div class="preco-info">
+                            <p>De <del>R$ 857</del></p>
+                            <h2><span>por 12x</span> R$ 39,62</h2>
+                            <p>Ou R$ 397 à vista</p>
+                            <div class="btn-comprar">
+                                <a href="https://pay.hotmart.com/G85732341E?off=vyewftec&checkoutMode=10&_hi=eyJjaWQiOiIxNjk0MjI4NjE1ODM5MTYyMzk4MTkyNTYwNDI2OTgwIiwiYmlkIjoiMTY5NDIyODYxNTgzOTE2MjM5ODE5MjU2MDQyNjk4MCIsInNpZCI6IjRlZDdjNTQwZDliNTRmOTk4YjIxNDk5NmJkZTk0OGQyIn0=.1732150570675"
+                                    target="_blank"><button>Quero investir em minha carreira</button></a>
+                                <p>Pagamento 100% seguro</p>
+                                <img src="images/bandeiras-pagamento.webp" alt="Bandeiras de pagamento">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="preco-vants">
+
+
+                        <div class="garantia">
+                            <img src="images/garantia.webp" alt="Selo de garantia de 7 dias">
+                            <div class="txt-garantia">
+                                <h2>Satisfação garantida ou <br>
+                                    <mark>100% do seu dinheiro de volta</mark>
+                                </h2>
+                                <p>O Modo Front-End oferece garantia incondicional de 7 dias. Caso não fique satisfeito,
+                                    você pode solicitar reembolso integral dentro desse período, sem complicações.</p>
+                            </div>
+                        </div>
+
+                        <div class="prova-social">
+                            <h2>O que dizem do Inteliogia</h2>
+                            <section class="depoimentos mySwiper">
+
+                                <div class="depoimentos-container swiper-wrapper">
+
+                                    <div class="slide swiper-slide">
+                                        <p class="depoi-txt">
+                                            Bruno, uma honra imensa conseguir fazer parte agora do curso. Conheci
+                                            teu canal através de noites de buscas em como começar e por onde
+                                            começar a migrar pro caminho Front. Tua didática é excelente e o teu
+                                            suporte ainda mais, fico feliz em poder fazer parte desta comunidade
+                                            agora, tu merece todo reconhecimento possível pelo teu trabalho e pela
+                                            confiança que faz a gente ter após algumas aulas.
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Yasmin Saraiva</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+
+                                        <p class="depoi-txt">
+                                            Curso muito bom! Aulas simples e objetivas, perfeitas pra quem é iniciante e
+                                            busca entrar no mundo do desenvolvimento Front-End mesmo sem ter um
+                                            conhecimento prévio sobre o assunto!
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Leonardo Figueiredo</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <i class="bi bi-quote"></i>
+
+                                        <p class="depoi-txt">
+                                            Uma didática excelente! A forma como o conteúdo é passado é de forma leve e
+                                            carismática. Exemplos claros que nos faz compreender o assunto. Sem sombra
+                                            de dúvidas um dos melhores cursos de desenvolvimento web front-end que já
+                                            vi. Recomendo!
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Lisandra Froes</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <i class="bi bi-quote"></i>
+
+                                        <p class="depoi-txt">
+                                            Professor, você é muito foda, o único que eu tenho orgulho de chamar de
+                                            professor até agora e falar que faço aula contigo, estou aprendendo muito
+                                            contigo, obrigado por tudo
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Gabriel Nazareth</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <i class="bi bi-quote"></i>
+
+                                        <p class="depoi-txt">
+                                            Cara, muito obrigado por compartilhar seu conhecimento.
+                                            Eu adorei a sua didática e a sua humildade.
+                                            Sabe muito e não deixa transparecer nem um grama de arrogância, como uns
+                                            outros "youtubers" por aí.
+                                            Valeu mesmo, mano.
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Ivo Petrônio</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <i class="bi bi-quote"></i>
+
+                                        <p class="depoi-txt">
+                                            Meus sinceros parabéns, Bruno! Posso te garantir que a qualidade de seu
+                                            material é superior a diversos métodos de plataformas pagas que tenho por
+                                            assinatura, seja corporativa, seja privada. Muito sucesso na sua carreira!
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Gesse Cazuza</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide swiper-slide">
+                                        <i class="bi bi-quote"></i>
+
+                                        <p class="depoi-txt">
+                                            Muito obrigado pela ajuda, estou inciando agora e estou procurando meios
+                                            para aprimorar meu conhecimentos, graças ao seu trabalho estou aprendendo
+                                            muito e se divertindo e ficando ainda mais confiante no que sou capaz de
+                                            fazer e criar. Eternamente grato!
+                                        </p>
+
+                                        <div class="person">
+
+                                            <div class="info-person">
+                                                <p class="nome-person">- Nelson Jose</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next nav-btn"></div>
+                                <div class="swiper-button-prev nav-btn"></div>
+                            </section>
+                        </div>
+
+                        <div class="vitalicio">
+                            <img src="images/para-sempre.webp" alt="Selo de garantia de 7 dias">
+                            <div class="txt-vitalicio">
+                                <h2>Acesso <mark>vitalício</mark></h2>
+                                <p>Estude no seu tempo! Tenha acesso a todas as
+                                    aulas e todas atualizações por tempo
+                                    indeterminado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="curso-oferece">
+            <div class="interface">
+
+                <h1>A hora de se capacitar é agora! E, pensando nisso, desenvolvemos um treinamento completo <span>e
+                        acessível <mark>para quem está começando no desenvolvimento web.</mark></span></h1>
+
+                <article class="curso-box">
+                    <div class="txt-curso-oferece">
+                        <h2>E o que torna esse treinamento <br>
+                            perfeito para você que está iniciando?
+                            <span>
+                                <mark>Veja só o que oferecemos</mark>
+                            </span>
+                        </h2>
+                        <div class="btn-comprar desktop">
+                            <a href="https://pay.hotmart.com/G85732341E?off=vyewftec&checkoutMode=10&_hi=eyJjaWQiOiIxNjk0MjI4NjE1ODM5MTYyMzk4MTkyNTYwNDI2OTgwIiwiYmlkIjoiMTY5NDIyODYxNTgzOTE2MjM5ODE5MjU2MDQyNjk4MCIsInNpZCI6IjRlZDdjNTQwZDliNTRmOTk4YjIxNDk5NmJkZTk0OGQyIn0=.1732150570675"
+                                target="_blank"><button>Quero ser um(a) dev requisitado</button></a>
+                        </div>
+                    </div>
+
+                    <div class="icons-curso-oferece">
+
+                        <div class="icons-box">
+                            <img src="images/diversos.webp" alt="Metodologia simples">
+                            <div class="txt-icons">
+                                <h3>Metodologia <span>simples</span></h3>
+                                <p>Explicações claras e práticas, sem jargões
+                                    técnicos complicados.</p>
+                            </div>
+                        </div>
+
+                        <div class="icons-box">
+                            <img src="images/passo-a-passo.webp" alt="Passo a passo">
+                            <div class="txt-icons">
+                                <h3><span>Passo a passo</span> completo</h3>
+                                <p>Nossas aulas são estruturadas para guiar você
+                                    desde o básico, com explicações claras e
+                                    exemplos práticos.</p>
+                            </div>
+                        </div>
+
+                        <div class="icons-box">
+                            <img src="images/local-na-rede-internet.webp" alt="Projetos práticos">
+                            <div class="txt-icons">
+                                <h3><span>Projetos</span> práticos</h3>
+                                <p>Aprenda fazendo! Crie projetos reais enquanto
+                                    aprende, para fixar o conhecimento de forma eficaz.</p>
+                            </div>
+                        </div>
+
+                        <div class="icons-box">
+                            <img src="images/apoio-suporte.webp" alt="Apoio constante">
+                            <div class="txt-icons">
+                                <h3><span>Apoio</span> constante</h3>
+                                <p>Suporte dedicado para tirar todas as suas dúvidas e
+                                    garantir que você entenda cada conceito.</p>
+                            </div>
+                        </div>
+
+                        <div class="icons-box">
+                            <img src="images/aprendendo.webp" alt="Resultados visíveis">
+                            <div class="txt-icons">
+                                <h3>Resultados <span>visíveis</span></h3>
+                                <p>Veja sua evolução a cada módulo e se surpreenda com
+                                    o quanto você pode alcançar.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="btn-comprar mobile">
+                        <a href="https://pay.hotmart.com/G85732341E?off=vyewftec&checkoutMode=10&_hi=eyJjaWQiOiIxNjk0MjI4NjE1ODM5MTYyMzk4MTkyNTYwNDI2OTgwIiwiYmlkIjoiMTY5NDIyODYxNTgzOTE2MjM5ODE5MjU2MDQyNjk4MCIsInNpZCI6IjRlZDdjNTQwZDliNTRmOTk4YjIxNDk5NmJkZTk0OGQyIn0=.1732150570675"
+                            target="_blank"><button>Quero ser um(a) dev requisitado</button></a>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <article class="sobre-box">
+                <div>
+                    <h1>Conheça seu professor: <span>Bruno Rodrigues</span></h1>
+                    <p>Um entusiasta da tecnologia com formação em Análise e Desenvolvimento de Sistemas.
+                        Com mais de 5 anos de experiência como desenvolvedor web, e se há algo que aprendi nessa
+                        jornada é que a tecnologia pode ser poderosa, mas a maneira como é ensinada é ainda mais
+                        crucial.
+                        <br><br>
+                        Também sou o rosto por trás do Inteliogia, um canal no YouTube que já conta com mais de
+                        19 mil inscritos. Lá tive a incrível oportunidade de auxiliar milhares de pessoas a criarem
+                        projetos
+                        incríveis. E o meu foco é didática direta e simplificada, um método que acredito ser fundamental
+                        para que todos possam compreender e aplicar os conceitos mais complexos da programação.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="perguntas-frequentes">
+            <div class="interface">
+
+                <h1>Dúvidas que podem surgir</h1>
+
+                <ul class="faq">
+
+                    <li>
+                        <input type="radio" name="acordeon" id="primeiro">
+                        <label for="primeiro">Como vou ter acesso ao treinamento?</label>
+                        <div class="resposta">
+                            <p>Assim que a sua compra for aprovada, será enviado um link para o e-mail cadastrado no ato
+                                da compra. Lá você poderá criar uma senha e assim conseguirá ter acesso às aulas do
+                                treinamento.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="acordeon" id="segundo">
+                        <label for="segundo">Preciso ter algum conhecimento para conseguir realizar o Treinamento Modo
+                            Front-end?</label>
+                        <div class="resposta">
+                            <p>Não! O Treinamento Modo Front-end foi pensado para quem tem pouco ou zero conhecimento
+                                sobre HTML, CSS e JavaScript. Portanto, mesmo que você nunca tenha feito uma única linha
+                                de código, você vai conseguir realizar o treinamento.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="acordeon" id="terceiro">
+                        <label for="terceiro">Terei suporte ao longo do curso?</label>
+                        <div class="resposta">
+                            <p>Sim! Você terá um canal exclusivo para tirar suas dúvidas, além de uma comunidade
+                                exclusiva para os alunos e uma inteligência artificial treinada para sanar as suas
+                                dúvidas.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="acordeon" id="quarta">
+                        <label for="quarta">Irei aprender back-end neste treinamento?</label>
+                        <div class="resposta">
+                            <p>Como o próprio já diz, este treinamento é voltado apenas para o front-end. Vamos aprender
+                                HTML, CSS e JavaScript junto com outros assuntos focado no seu desenvolvimento
+                                profissinal. Ainda não temos planos de inserir back-end neste treinamento.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="acordeon" id="quinta">
+                        <label for="quinta">Todas as aulas já estão disponíveis?</label>
+                        <div class="resposta">
+                            <p>Assim que sua compra for aprovada, você terá acesso ao conteúdo que está dentro do
+                                treinamento. Atualmente já temos mais de 210 aulas publicadas, mas a cada semana sai um
+                                módulo novo.</p>
+                        </div>
+                    </li>
+
+                    <li class="oculto">
+                        <input type="radio" name="acordeon" id="sexta">
+                        <label for="sexta">Por quanto tempo terei acesso ao treinamento?</label>
+                        <div class="resposta">
+                            <p>O acesso a este treinamento é VITALÍCIO. Isso significa que você terá acesso as aulas
+                                atuais e futuras atualizações sem valor adicional.</p>
+                        </div>
+                    </li>
+
+                    <li class="oculto">
+                        <input type="radio" name="acordeon" id="setimo">
+                        <label for="setimo">Qual a garantia do Treinamento Modo Front-end?</label>
+                        <div class="resposta">
+                            <p>Não curtiu o conteúdo? Sem problema! Você pode solicitar o reembolso dentro de um período
+                                de 7 dias após a compra, ou seja, você poderá assistir algumas aulas e se não gostar
+                                pode pedir 100% do seu dinheiro de volta sem precisar justificar e sem burocracia.</p>
+                        </div>
+                    </li>
+
+                    <li class="oculto">
+                        <input type="radio" name="acordeon" id="oitavo">
+                        <label for="oitavo">Este treinamento possui certificado?</label>
+                        <div class="resposta">
+                            <p>Sim! Ao finalizar este curso você poderá emitir o certificado. Ele é válido em todo
+                                território nacional e poderá ser emitido de forma online em PDF (Lei 9394/96, Decreto
+                                5154, Deliberação CEE 14/97).</p>
+                        </div>
+                    </li>
+
+                    <li class="oculto">
+                        <input type="radio" name="acordeon" id="nono">
+                        <label for="nono">Qual a carga horária deste treinamento?</label>
+                        <div class="resposta">
+                            <p>Atualmente a carga horária é de 35 horas, mas esse valor aumenta a medida que inserimos
+                                novos conteúdos todas as semanas.</p>
+                        </div>
+                    </li>
+
+                    <li class="oculto">
+                        <input type="radio" name="acordeon" id="decimo">
+                        <label for="decimo">É garantido que terei obtenção de lucros?</label>
+                        <div class="resposta">
+                            <p>Não! Infelizmente isso não podemos garantir. Esteja ciente que você terá aulas focadas no
+                                seu desenvolvimento e se você se dedicar de verdade, com toda certeza irá aprender a
+                                criar sites, mas o que você fará com esse conhecimento depende apenas de você. Por isso
+                                não garantimos obtenção de lucros.</p>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="btn-ver-mais"><button id="abrirMais">Ver mais</button></div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="linha1">
+                <section class="logo-footer">
+                    <img src="images/logotipo-modo-front-end.webp" alt="Logotipo do Treinamento Modo Front-End">
+                </section>
+
+                <nav>
+                    <ul>
+                        <li><a href="#linguagens">O que vou aprender?</a></li>
+                        <li><a href="#preco">Quanto custa?</a></li>
+                        <li><a href="#preco">Tem garantia?</a></li>
+                        <li><a href="https://pay.hotmart.com/G85732341E?off=vyewftec&checkoutMode=10&_hi=eyJjaWQiOiIxNjk0MjI4NjE1ODM5MTYyMzk4MTkyNTYwNDI2OTgwIiwiYmlkIjoiMTY5NDIyODYxNTgzOTE2MjM5ODE5MjU2MDQyNjk4MCIsInNpZCI6IjRlZDdjNTQwZDliNTRmOTk4YjIxNDk5NmJkZTk0OGQyIn0=.1732150570675"
+                                target="_blank" class="comecar">Quero começar agora</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="linha2">
+                <p>Caso tenha ficado com alguma dúvida, manda um alô pra gente</p>
+                <a href="mailto:suporte@inteliogia.com" target="_blank">suporte@inteliogia.com</a>
+            </div>
+
+            <div class="linha3">
+                <p>Todos os direitos reservados © Copyright 2024 <br>
+                    Desenvolvido pelo Grupo Inteliogia</p>
+
+                <img src="images/logo-inteliogia.webp" alt="Logotipo Inteliogia">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+
+</html>

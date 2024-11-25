@@ -1,0 +1,387 @@
+@media (max-width: 1130px) {
+    section.lucrtivo {
+        padding: 40px 0;
+    }
+
+    .lucrtivo .vantagens {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .interface {
+        padding: 0 4%;
+    }
+
+    /* OFERTA */
+    section.oferta {
+        background-color: #ffff00;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 9999999;
+        width: 100%;
+
+    }
+
+    section.oferta>.interface {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .oferta .btn-comprar button {
+        font-size: 12px;
+        width: 120px;
+    }
+
+    .oferta p {
+        font-size: 12px;
+    }
+
+    /* ESTILO DA HERO */
+    .hero {
+        height: 100vh;
+    }
+
+    .hero .logo img {
+        max-width: 200px;
+    }
+
+    .hero .txt-hero h1 {
+        font-size: 1.4rem;
+        margin: 40px 0;
+    }
+
+    .hero .txt-hero p {
+        font-size: 1rem;
+    }
+
+    .hero .txt-hero h1 span,
+    .hero .txt-hero p span {
+        display: inline;
+    }
+
+    .btn-comprar {
+        margin-top: 20px;
+    }
+
+    .btn-comprar button {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .btn-comprar img {
+        /* max-width: 320px; */
+        width: 100%;
+    }
+
+    /* VANTAGENS DE APRENDER FRONT-END */
+    section.lucrtivo {
+        padding: 40px 0;
+    }
+
+    .lucrtivo h1 {
+        font-size: 1.4rem;
+    }
+
+    .lucrtivo h1 span {
+        display: inline;
+    }
+
+    .lucrtivo .vantagens {
+        gap: 40px;
+    }
+
+    .lucrtivo .vantagens .vants-box {
+        width: 100%;
+        height: auto;
+    }
+
+    /* SALÃRIOS */
+    .titulo-secao h1 {
+        font-size: 1.4rem;
+    }
+
+    .titulo-secao h1 span {
+        display: inline;
+    }
+
+    .graficos-salarios .grafico-container {
+        width: 100%;
+    }
+
+    .grafico-container p {
+        font-size: 1.4rem;
+    }
+
+    .grafico-container .grafico-box {
+        font-size: 1.1rem;
+        border-radius: 5px;
+        width: 70%;
+    }
+
+    .salarios .oportunidades {
+        font-size: 1.2rem;
+        padding: 20px 0;
+    }
+
+    .oportunidades h1 span {
+        font-size: 1rem;
+        display: block;
+    }
+
+    .liberdade {
+        margin: 80px 0 40px 0;
+        align-items: flex-start;
+        height: 80vh;
+        background-position: bottom;
+    }
+
+    .liberdade div {
+        padding: 0 40px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .liberdade div h1 {
+        font-size: 1.8rem;
+    }
+
+    .liberdade div p {
+        text-align: justify;
+    }
+
+    .liberdade::before {
+        background-image: linear-gradient(to bottom, #1E1E1E 60%, transparent);
+    }
+
+    /* O QUE VOCÃŠ VAI APRENDER */
+
+    .linguagens .lang-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* SEÃ‡ÃƒO DE PREÃ‡O */
+    .preco .preco-container {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .preco .box-preco,
+    .preco .preco-vants {
+        width: 100%;
+    }
+
+    .preco .box-preco {
+        padding: 30px;
+    }
+
+    .box-preco h1 {
+        font-size: 1.6rem;
+    }
+
+    .box-preco .logo-preco img {
+        max-width: 240px;
+    }
+
+    .box-preco .check-beneficios {
+        max-width: 100%;
+    }
+
+    .box-preco .check-beneficios p {
+        font-size: 18px;
+    }
+
+    .box-preco .preco-info h2 {
+        font-size: 3rem;
+    }
+
+    .garantia,
+    .prova-social,
+    .vitalicio {
+        text-align: center !important;
+    }
+
+    .garantia,
+    .vitalicio {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .garantia img,
+    .vitalicio img {
+        max-width: 120px;
+    }
+
+    /* CARROSSEL DE TESTEMUNHO */
+    .prova-social {
+        height: auto;
+    }
+
+    .prova-social h2 {
+        margin-bottom: 40px;
+    }
+
+    .depoimentos {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .depoimentos .slide {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    /* SEÃ‡ÃƒO O QUE O CURSO PODE OFERECER */
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .mobile button{
+        font-size: 14px;
+    }
+
+    .curso-oferece h1 {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .curso-oferece h1 span {
+        display: inline;
+    }
+
+    .curso-oferece .curso-box {
+        flex-direction: column;
+    }
+
+    .txt-curso-oferece,
+    .icons-curso-oferece {
+        width: 100%;
+    }
+
+    .txt-curso-oferece {
+        position: static;
+    }
+
+    .txt-curso-oferece h2 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .txt-curso-oferece h2 span {
+        font-size: 1.7rem;
+    }
+
+    .txt-curso-oferece .btn-comprar {
+        text-align: center;
+    }
+
+    .icons-curso-oferece .icons-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icons-curso-oferece .icons-box img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 140px;
+    }
+
+    /* SOBRE MIM */
+    .sobre-box {
+        height: 120vh;
+        background-position: bottom;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .sobre-box div {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0 4%;
+    }
+
+    .sobre-box div h1 {
+        font-size: 1.4rem;
+    }
+
+    .sobre-box div h1 span {
+        font-size: 2.5rem;
+
+    }
+
+    .sobre-box::before {
+        background-image: linear-gradient(to bottom, #151515 72%, transparent);
+    }
+
+    /* SESSÃƒO FAQ */
+
+    .perguntas-frequentes h1 {
+        font-size: 2rem;
+    }
+
+    .faq li label {
+        font-size: 16px;
+    }
+
+    .faq li label::before {
+
+        font-size: 16px;
+    }
+
+    .faq .resposta {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* ESTILO DO RODAPÃ‰ */
+    footer {
+        background-color: #343434;
+        padding: 40px 0;
+    }
+
+    footer .linha1,
+    footer .linha3 {
+        flex-direction: column;
+    }
+
+
+    .linha1 nav ul {
+        list-style: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .linha1 nav ul li {
+        padding: 20px 0;
+    }
+
+    .linha1 nav ul li a {
+        font-size: 18px;
+    }
+
+    footer .linha2 a {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    footer .linha3 img {
+        max-width: 30px;
+        margin-top: 20px;
+    }
+
+}
