@@ -8,15 +8,7 @@
     --cor-de-fundo: white;
     --cor-primaria: #2b6cb0;
     --cor-secundaria:black;
-    --cor-tercearia: aliceblue;;
-}
-
-p{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --cor-tercearia: whitesmoke;
 }
 
 body{
@@ -37,10 +29,11 @@ header{
     justify-content: center;
     font-size: 2rem;
     padding-top: 1rem;
+    text-decoration: none;
 }
 
 .logo p{
-    padding-top: 1.3rem;
+    padding-top: 2rem;
     padding-left: 1rem;
 
 }
@@ -51,11 +44,13 @@ header{
     font-size: 1rem;
 }
 
+
+
 .links a{
     padding-top: 1rem;
     text-decoration: none;
     color: var(--cor-tercearia);
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .carrosel{
@@ -164,4 +159,39 @@ header{
 
 #radio4:checked ~ .autonav .autobtn4{
     background-color: var(--cor-primaria);
+}
+
+#servicos{
+    padding-top: 7rem;
+}
+
+.titulos-de-div{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-primaria);
+    font-size: 30px;
+}
+
+.corpo{
+    padding-top: 2rem;
+    background-color: var(--cor-tercearia);
+    padding-left: 20px;
+    
+}
+
+.titulo-lava{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contatos{
+    padding-top: 8rem;
+}
+
+
+footer {
+	background-color: var(--cor-primaria);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
 }
