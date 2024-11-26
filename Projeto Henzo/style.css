@@ -13,6 +13,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: 'Arial', sans-serif;
 }
 
 header{
@@ -179,12 +180,10 @@ header{
     
 }
 
-.titulo-lava{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 #contatos{
     padding-top: 8rem;
+    text-align: center;
+    
 }
 
 
@@ -194,4 +193,8 @@ footer {
 	padding: 20px;
 	text-align: center;
 	margin-top: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
