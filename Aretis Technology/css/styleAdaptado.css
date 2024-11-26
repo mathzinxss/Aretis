@@ -1,3 +1,10 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     font-family: 'Arial', sans-serif;
     padding: 0;
@@ -10,8 +17,10 @@ body{
     color: white;
     padding: 20px 0;
     text-align: center;
-    position: relative;
+    position: fixed;
     box-sizing: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 100;
 }
 .logo {
     color: white;
@@ -22,7 +31,7 @@ body{
     transition: color 0.3s ease;
 }
 .logo:hover {
-    color: #1ccabc;
+    color: #81d8d0;
 }
 nav {
     display: flex;
@@ -51,7 +60,7 @@ nav {
  
 /* Efeito de hover com cor */
 .menu_link:hover {
-    color: #59fcd3;
+    color: #81d8d0;
 }
 
 /* Efeito de hover com linha animada */
@@ -59,7 +68,7 @@ nav {
     content: "";
     width: 0;
     height: 2px;
-    background-color: #5eebe4;
+    background-color: #81d8d0;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -69,6 +78,11 @@ nav {
 .menu_link:hover::after {
     width: 100%;
 }
+
+main{
+    padding-top: 5.5rem;
+}
+
 section {
     padding: 20px;
     margin: 20px;
@@ -85,8 +99,9 @@ article {
 }
 
 h3 {
-    color: #333;
+    color: #81d8d0;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 p {
@@ -99,7 +114,6 @@ footer {
     color: white;
     padding: 10px 0;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -109,4 +123,50 @@ footer {
 }
 html {
     scroll-behavior: smooth;
+}
+
+
+.linha{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-4{
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 ;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    text-align: center;
+    height: 290px;
+}
+
+.col-4 p{
+    color: white;
+    margin-left: 2px;
+}
+
+.col-4 h4{
+    color: #81d8d0;
+}
+
+.col-4:hover{
+    transform: scale(1.1);
+}
+
+.sobre{
+    text-align: center;
+    
+}
+
+h6{
+    font-size: 20px;
 }
