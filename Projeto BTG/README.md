@@ -1,4 +1,4 @@
-x1. **Definição de Requisitos**:
+1. **Definição de Requisitos**:
    - Liste todas as funcionalidades que você deseja implementar, como cadastro de contas, controle de receitas e despesas, orçamentos e metas.
    - Pense nas funcionalidades educacionais, como artigos, vídeos e calculadoras.
 
