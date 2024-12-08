@@ -1,4 +1,6 @@
-# Projetos:
+# Curso de react: [Aqui](https://youtu.be/hd2B7XQAFls)
+
+## Projetos:
 
 - [Acesse](https://mathzinxss.github.io/Aretis/Aretis%20Technology/) Aretis Technology
 - [Acesse](https://mathzinxss.github.io/Aretis/Portfólio/) Portfólio
