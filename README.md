@@ -6,6 +6,9 @@
 
 [Exibição](https://mathzinxss.github.io/Aretis/reactAretis)
 
+## **Desenvolvendo uma loja virtual usando frameworks**
+[Assista!](https://youtu.be/K8sh4xOZ42M?si=7HoSgx1mAbk7rHfH)
+
 ## Projetos:
 
 - [Acesse](https://mathzinxss.github.io/Aretis/Aretis%20Technology/) Aretis Technology
