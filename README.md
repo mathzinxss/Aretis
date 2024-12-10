@@ -17,6 +17,7 @@
 - [Acesse](https://mathzinxss.github.io/Aretis/Projeto%20Henzo/) Projeto Henzo
 - [Acesse](https://mathzinxss.github.io/Aretis/loja%20virtual/) Loja Virtual
 - [Acesse](https://mathzinxss.github.io/Aretis/testandoSites/) Testando Sites
+- [Acesse](https://youtu.be/_4CPp670fK4) Ecommerce com React
 
 ## Estratégia
 
